@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046BDEED1696F2E7007DA313 /* MSNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BDEEC1696F2E7007DA313 /* MSNetworkManager.m */; };
+		046BDEF01696F7EA007DA313 /* MSNetsoulManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BDEEF1696F7EA007DA313 /* MSNetsoulManager.m */; };
+		046BDEF31696FF02007DA313 /* MSNetsoul.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BDEF21696FF02007DA313 /* MSNetsoul.m */; };
 		04D093981696098E00A13386 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D093971696098E00A13386 /* Cocoa.framework */; };
 		04D093A21696098E00A13386 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D093A01696098E00A13386 /* InfoPlist.strings */; };
 		04D093A41696098E00A13386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D093A31696098E00A13386 /* main.m */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046BDEEB1696F2E7007DA313 /* MSNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNetworkManager.h; sourceTree = "<group>"; };
+		046BDEEC1696F2E7007DA313 /* MSNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNetworkManager.m; sourceTree = "<group>"; };
+		046BDEEE1696F7EA007DA313 /* MSNetsoulManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNetsoulManager.h; sourceTree = "<group>"; };
+		046BDEEF1696F7EA007DA313 /* MSNetsoulManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNetsoulManager.m; sourceTree = "<group>"; };
+		046BDEF11696FF02007DA313 /* MSNetsoul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNetsoul.h; sourceTree = "<group>"; };
+		046BDEF21696FF02007DA313 /* MSNetsoul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNetsoul.m; sourceTree = "<group>"; };
 		04D093931696098E00A13386 /* MacSoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D093971696098E00A13386 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04D0939A1696098E00A13386 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -86,6 +95,12 @@
 				04D093AA1696098E00A13386 /* MSAppDelegate.m */,
 				04D093AC1696098F00A13386 /* MainMenu.xib */,
 				04D0939E1696098E00A13386 /* Supporting Files */,
+				046BDEEB1696F2E7007DA313 /* MSNetworkManager.h */,
+				046BDEEC1696F2E7007DA313 /* MSNetworkManager.m */,
+				046BDEEE1696F7EA007DA313 /* MSNetsoulManager.h */,
+				046BDEEF1696F7EA007DA313 /* MSNetsoulManager.m */,
+				046BDEF11696FF02007DA313 /* MSNetsoul.h */,
+				046BDEF21696FF02007DA313 /* MSNetsoul.m */,
 			);
 			path = MacSoul;
 			sourceTree = "<group>";
@@ -169,6 +184,9 @@
 			files = (
 				04D093A41696098E00A13386 /* main.m in Sources */,
 				04D093AB1696098E00A13386 /* MSAppDelegate.m in Sources */,
+				046BDEED1696F2E7007DA313 /* MSNetworkManager.m in Sources */,
+				046BDEF01696F7EA007DA313 /* MSNetsoulManager.m in Sources */,
+				046BDEF31696FF02007DA313 /* MSNetsoul.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +227,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -239,7 +257,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
@@ -298,6 +316,7 @@
 				04D093B31696098F00A13386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
