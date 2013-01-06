@@ -15,5 +15,5 @@
 }
 
 - (void)connect:(NSString*)host port:(int)port;
-
+- (void)exit;
 @end

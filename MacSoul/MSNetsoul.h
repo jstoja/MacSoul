@@ -16,7 +16,7 @@
     NSString    *port_key;
 }
 
-#define LOGIN @"bordel_h"
+#define LOGIN @"bordel_j"
 #define PASSWORD @""
 
 -(NSArray*)handshake:(NSString*)data;

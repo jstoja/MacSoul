@@ -15,7 +15,14 @@
         nm->host = host;
         nm->port = port;
         [nm setup];
-        
+    }
+}
+
+- (void)exit {
+    if (nm != nil) {
+        [nm writeOut:@"exit"];
+        [nm close];
+        [nm release];
     }
 }
 @end
